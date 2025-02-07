@@ -1,7 +1,7 @@
 ## STRKZ
 ### Установка
  
-> git clone https://github.com/art-z/strkz.git
+> git clone https://github.com/art-z/strkzio.git
 
 #### В директории проекта:
 
