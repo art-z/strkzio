@@ -80,6 +80,9 @@ $config = [
                     'class' => \yii\rest\UrlRule::class,
                     'controller' => 'api/track',
                     'extraPatterns' => [
+
+                        // multiple POST /api/tracks/multiple
+                        // body [ ids: "1,...9", "status":"TrackModule valid status" ]
                         'POST multiple' => 'multiple',
                     ],
                 ],
