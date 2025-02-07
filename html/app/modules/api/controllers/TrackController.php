@@ -37,6 +37,9 @@ class TrackController extends ActiveController
     public function prepareDataProvider()
     {
         $query = $this->modelClass::find();
+
+        // filter by status
+        // tracks?status=TrackModule valid status
         if (\Yii::$app->request->get('status')) {
             $query->andWhere(
                 ['status' => \Yii::$app->request->get('status')]
