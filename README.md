@@ -1,4 +1,4 @@
-## STRKZ
+## STRKZ TRACK
 ### Установка
  
 > git clone https://github.com/art-z/strkzio.git
